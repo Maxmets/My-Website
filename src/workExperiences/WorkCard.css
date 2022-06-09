@@ -1,0 +1,26 @@
+h2,h4,p {
+    margin-left: 5px;
+}
+
+
+.card:hover {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+li {
+    text-align: left;
+    display: inline;
+    margin-left: 5px;
+}

@@ -1,0 +1,27 @@
+
+.card {
+    float: left;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitleSpace {
+    margin:-3px; 
+}
+
+.textSpace {
+    margin-top:40px; 
+}
+
+.buttonSpace { 
+    margin-top: 35px;
+}
+
+.link, .link:hover, .link:focus, .link:active {
+    text-decoration: none;
+    color: inherit;
+}
+

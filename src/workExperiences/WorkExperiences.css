@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.experienceTitle {
+    padding-top: 75px;
+    background-color: rgb(82, 80, 80);
+    color: rgb(243, 235, 235);
+    font-size: 150px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 195px;
+}
+
+.websiteBackground {
+    background-color: lightgray;
+    padding-bottom: 265px;
+}

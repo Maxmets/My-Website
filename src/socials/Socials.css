@@ -1,0 +1,25 @@
+.image1 {
+    margin-left: 320px;
+}
+
+.image2 {
+    margin-left: 620px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 75px; */
+}
+
+.websiteBackground {
+    background-color: lightgray;
+}
+
+.socialsTitle {
+    padding-top: 75px;
+    background-color: rgb(82, 80, 80); 
+    color: rgb(243, 235, 235);
+    font-size: 150px;
+}
+
