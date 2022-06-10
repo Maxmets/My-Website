@@ -8,6 +8,14 @@ import WorkExperiences from '../src/workExperiences/WorkExperiences.js';
 import React from 'react';
 
 function App() {
+
+  // TODO:
+  // 1. Upload Unions and Intervals Project to GitHub 
+  // 2. Change the Socials Tiles 
+  // 3. Sizing for mobile and middle screens 
+  // 4. Fix the Button on the last Project Card
+
+
   return (
       <div>
         <Header/>

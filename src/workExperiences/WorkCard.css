@@ -15,19 +15,30 @@ h2,h4,p {
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    flex: 1;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: '26rem'; 
-    height: "max-content" 
+    width: 'fit-content'; 
+    height: "min-content";
 }
 
-li {
+/* .durationPlace {
+    pad;
+} */
+
+.techList {
     text-align: left;
-    display: inline;
+    display:inline-block;
     margin-left: 5px;
+}
+
+.descList {
+    text-align: left;
+    display:list-item;
+    margin-left: 3px;
 }
 
 }
@@ -59,9 +70,15 @@ li {
         margin-top: 5px;
     }
     
-    li {
+    .techList {
         text-align: left;
         display: inline;
+        margin-left: 5px;
+    }
+    
+    .descList {
+        text-align: left;
+        margin-left: 3px;
     }
 }
 

@@ -4,8 +4,12 @@ import {Card} from "react-bootstrap";
 
 function WorkCard(props) {
 
-    let list = props.techUsed.map((item) => 
-        <li>{item}</li>
+    let techList = props.techUsed.map((item) => 
+        <li className='techList'>{item}</li>
+    );
+
+    let descList = props.description.map((item) => 
+      <li className='descList'>{item}</li>
     );
     
     return(
@@ -20,12 +24,12 @@ function WorkCard(props) {
       <Card.Title>{props.title} </Card.Title>
       <Card.Text>
           <b>Technology Used:</b>
-              {list}
+              {techList}
       </Card.Text>
       <Card.Text>
-        {props.description}
+        {descList}
       </Card.Text>
-      <Card.Text>
+      <Card.Text className='durationPlace'>
          <b>Duration:</b> {props.dateRange}
       </Card.Text>
     </Card.Body>

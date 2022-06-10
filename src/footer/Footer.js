@@ -9,9 +9,8 @@ function Footer(){
         <Container className="container">
         <Navbar.Brand className='navbarBrandFooter' href="#home">Maksym Yakhymets</Navbar.Brand>
         <Nav className="me-auto">
-        <Nav.Link href="#home">LinkedIn</Nav.Link>
-        <Nav.Link href="#features">GitHub</Nav.Link>
-        <Nav.Link href="https://www.google.com/">Holder</Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/maksymyakhymets/">LinkedIn</Nav.Link>
+        <Nav.Link href="https://github.com/Maxmets">GitHub</Nav.Link>
         </Nav>
         </Container>
     </Navbar>
