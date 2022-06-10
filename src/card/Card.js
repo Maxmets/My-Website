@@ -14,7 +14,6 @@ return (
     bg={"light".toLowerCase()}
     key={"light"}
     text={'dark'}
-    style={{ width: '26rem', height: "33rem"}}
     className="mb-2 cardHover">
     <Card.Body>
         <Card.Title>{props.title}</Card.Title>

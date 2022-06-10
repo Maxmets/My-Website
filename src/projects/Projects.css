@@ -1,4 +1,4 @@
-
+@media (min-width: 992px) {
 .projectTitle{
     padding-top: 75px;
     background-color: rgb(82, 80, 80);
@@ -15,4 +15,28 @@
 .websiteBackground {
     background-color: lightgray;
     padding-bottom: 200px;
+}
+
+}
+
+
+@media (max-width: 462px) {
+    .projectTitle{
+        padding-top: 75px;
+        background-color: rgb(82, 80, 80);
+        color: rgb(243, 235, 235);
+        font-size: 60px;
+    }
+    
+    .proj {
+        padding-top: 3px;
+        /* display: flex;
+        flex-direction: row; */
+        display:inline-block; 
+    }
+    
+    .websiteBackground {
+        background-color: lightgray;
+        padding-bottom: 200px;
+    }
 }

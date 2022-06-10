@@ -1,3 +1,33 @@
+@media (min-width: 992px) {
+    .container {
+        margin: 0px;
+    }
+}
+
+
 .container {
     margin: 0px;
+}
+
+.navbar {
+    height: 90px;
+    font-size: 20px;
+}
+
+@media (max-width: 462px) {
+
+    .container {
+        margin: 0px;
+    }
+
+    .navbarFooter {
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .navbarBrandFooter {
+        font-size: 19.5px;
+    }
+    
+
 }

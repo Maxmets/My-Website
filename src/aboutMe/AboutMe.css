@@ -20,3 +20,31 @@
 p {
     margin-top: 70px;
 }
+
+
+@media (max-width: 462px) {
+    .aboutMe {
+        padding-bottom: 50px;
+    }
+    
+    .websiteBackground {
+        background-color: lightgray;
+    }
+    
+    .aboutMeTitle {
+        padding-top: 75px;
+        background-color: rgb(82, 80, 80);
+        color: rgb(243, 235, 235);
+        font-size: 60px;
+    }
+    
+    .aboutMeContent {
+        padding-top: 25px;
+    }
+    
+    p {
+        margin-top: 70px;
+    }
+
+
+}

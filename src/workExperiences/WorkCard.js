@@ -10,10 +10,9 @@ function WorkCard(props) {
     
     return(
     <Card
-    bg={"light".toLowerCase()}
+    bg={"light"}
     key={"light"}
-    text={"light".toLowerCase() === 'light' ? 'dark' : 'white'}
-    style={{ width: '26rem', height: "max-content" }}
+    text={'dark'}
     className="mb-2"
   >
     <Card.Header>{props.company}</Card.Header>
