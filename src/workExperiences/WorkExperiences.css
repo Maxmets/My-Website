@@ -1,7 +1,6 @@
 
 @media (min-width: 992px) {
 
-
 h1 {
     text-align: center;
     padding-top: 120px;
@@ -18,12 +17,39 @@ h1 {
 .flex {
     display: flex;
     flex-direction: row;
-    padding-bottom: 195px;
+    padding-top: 110px;
+    padding-bottom: 40px;
 }
 
 .websiteBackground {
     background-color: lightgray;
     padding-bottom: 265px;
+    }
+}
+
+@media (min-width: 463px) and (max-width: 991px) {
+    h1 {
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    
+    .experienceTitle {
+        padding-top: 75px;
+        background-color: rgb(82, 80, 80);
+        color: rgb(243, 235, 235);
+        font-size: 80px;
+    }
+    
+    .flex {
+        padding-bottom: 15px;
+        display:inline-block;  /*using this for displaying the cards to not cause border problems with the next title */
+        /* flex-direction: row; */
+    }
+    
+    .websiteBackground {
+        background-color: lightgray;
+        padding-bottom: 15px;
     }
 }
 

@@ -11,6 +11,7 @@ function Footer(){
         <Nav className="me-auto">
         <Nav.Link href="https://www.linkedin.com/in/maksymyakhymets/">LinkedIn</Nav.Link>
         <Nav.Link href="https://github.com/Maxmets">GitHub</Nav.Link>
+        <Nav.Link href="mailto:maxmets27@gmail.com">Email</Nav.Link>
         </Nav>
         </Container>
     </Navbar>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import resume from "../Profile.pdf";
+import resume from "../Maksym Yakhymets Resume.pdf";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,7 +19,7 @@ return (
        <Nav.Link href="#socialsTile">Socials</Nav.Link>
        <Nav.Link  href={resume} target="_blank">Resume</Nav.Link>
     </Nav>
-    <Nav className="ms-auto test">
+    <Nav className="test">
        <Nav.Link  href="https://www.linkedin.com/in/maksymyakhymets/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt='LinkedIn Logo' height="26" width="26"/></Nav.Link>
        <Nav.Link  href="https://github.com/Maxmets" target="_blank"><img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-verte.png" alt='Github Logo' height="26" width="26"/></Nav.Link>
     </Nav>

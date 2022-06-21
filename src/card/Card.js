@@ -15,13 +15,13 @@ return (
     key={"light"}
     text={'dark'}
     className="mb-2 cardHover">
-    <Card.Body className=''>
+    <Card.Body className='d-flex flex-column'>
         <Card.Title>{props.title}</Card.Title>
         <Card.Subtitle className=" subtitleSpace mb-2 text-muted">{techList}</Card.Subtitle>
         <Card.Text className="textSpace">
         {props.description}
         </Card.Text>
-        <div className="d-grid gap-2 " >
+        <div className="d-grid mt-auto gap-2 " >
             <Button href={props.link} className="buttonSpace" variant="secondary" size="lg">
                 Click Me
             </Button>
