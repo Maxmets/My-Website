@@ -1,8 +1,8 @@
 @media (min-width: 992px) {
 .projectTitle{
     padding-top: 75px;
-    background-color: rgb(82, 80, 80);
-    color: rgb(243, 235, 235);
+    background-color: rgba(29, 117, 175, 0.521);
+    color: rgb(255, 255, 255);
     font-size: 150px;
 }
 
@@ -22,8 +22,8 @@
 @media (min-width: 463px) and (max-width: 991px) {
     .projectTitle{
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
-        color: rgb(243, 235, 235);
+        background-color: rgba(29, 117, 175, 0.521);
+        color: rgb(255, 255, 255);
         font-size: 80px;
     }
     
@@ -44,8 +44,8 @@
 @media (max-width: 462px) {
     .projectTitle{
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
-        color: rgb(243, 235, 235);
+        background-color: rgba(29, 117, 175, 0.521);
+        color: rgb(255, 255, 255);
         font-size: 60px;
     }
     

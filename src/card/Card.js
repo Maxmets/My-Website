@@ -22,7 +22,7 @@ return (
         {props.description}
         </Card.Text>
         <div className="d-grid mt-auto gap-2 " >
-            <Button href={props.link} className="buttonSpace" variant="secondary" size="lg">
+            <Button href={props.link} className="buttonSpace" variant="info" size="lg">
                 Click Me
             </Button>
         </div>

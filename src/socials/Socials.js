@@ -21,7 +21,7 @@ function Socials(){
                     Visit my GitHub to find out projects and technology that interest me!
                     </Card.Text>
                     <div className="d-grid gap-2">
-                        <Button href='https://github.com/Maxmets' variant="success" size="lg">
+                        <Button href='https://github.com/Maxmets' variant="info" size="lg">
                             Click Me
                         </Button>
                     </div>
@@ -37,7 +37,7 @@ function Socials(){
                     Visit my LinkedIn to learn more about me and my experiences! 
                     </Card.Text>
                     <div className="d-grid gap-2">
-                        <Button href='https://www.linkedin.com/in/maksymyakhymets/' variant="success" size="lg">
+                        <Button href='https://www.linkedin.com/in/maksymyakhymets/' variant="info" size="lg">
                             Click Me
                         </Button>
                     </div>
@@ -53,7 +53,7 @@ function Socials(){
                     Direct get in touch with me through email! 
                     </Card.Text>
                     <div className="d-grid gap-2">
-                        <Button href='mailto:maxmets27@gmail.com' variant="success" size="lg">
+                        <Button href='mailto:maxmets27@gmail.com' variant="info" size="lg">
                             Click Me
                         </Button>
                     </div>

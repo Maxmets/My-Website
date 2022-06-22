@@ -1,17 +1,20 @@
 @media (min-width: 1810px) {
     .navbar {
-        height: 70px;
+        height: 20px;
         font-size: 20px;
     }
     
     .navbarBrand {
         font-size: 30px;
+        padding-right: 20px;
+        
     }
 
     .container {
         /* padding-right: 70px; */
         text-align: right;
       }
+
     
     .test {
        text-align: left;
@@ -21,12 +24,13 @@
 
 @media (min-width: 1100px) and (max-width: 1809px) {
     .navbar {
-        height: 70px;
+        height: 20px;
         font-size: 20px;
     }
     
     .navbarBrand {
         font-size: 30px;
+        padding-right: 20px;
     }
 
     .container {
@@ -40,24 +44,55 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1099px) {
+    .navbar {
+        height: 20px;
+        font-size: 20px;
+    }
+    
+    .navbarBrand {
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    .container {
+        /* padding-right: 70px; */
+        text-align: right;
+      }
+    
+    .test {
+       text-align: left;
+       margin-right: -150px;
+    }
+    
+}
+
 @media (min-width: 463px) and (max-width: 991px) {
 
 .navbar {
-    height: 70px;
+    height: 20px;
     font-size: 20px;
 }
 
 .navbarBrand {
     font-size: 30px;
 }
+.container {
+    /* padding-right: 70px; */
+    text-align: right;
+  }
+
+  .navbarCollapse {
+    background-color: rgba(0, 0, 0, 0.575);
+  }
 
 }
 
 
 
-@media (min-width: 463px) {
+@media (max-width: 463px) {
     .navbar {
-        height: 70px;
+        height: 20px;
         font-size: 20px;
     }
     
@@ -68,6 +103,9 @@
     .container {
       text-align: right;
     }
+    .navbarCollapse {
+        background-color: rgba(0, 0, 0, 0.575);
+      }
 
     /* .test {
         margin-right: 0px;

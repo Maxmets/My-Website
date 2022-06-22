@@ -9,8 +9,8 @@ h1 {
 
 .experienceTitle {
     padding-top: 75px;
-    background-color: rgb(82, 80, 80);
-    color: rgb(243, 235, 235);
+    background-color: rgba(29, 117, 175, 0.521);
+    color: rgb(255, 255, 255);
     font-size: 150px;
 }
 
@@ -22,8 +22,8 @@ h1 {
 }
 
 .websiteBackground {
-    background-color: lightgray;
-    padding-bottom: 265px;
+    background-color: rgb(241, 236, 236);
+    /* padding-bottom: 265px; */
     }
 }
 
@@ -36,8 +36,8 @@ h1 {
     
     .experienceTitle {
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
-        color: rgb(243, 235, 235);
+        background-color: rgba(29, 117, 175, 0.521);
+        color: rgb(255, 255, 255);
         font-size: 80px;
     }
     
@@ -48,7 +48,7 @@ h1 {
     }
     
     .websiteBackground {
-        background-color: lightgray;
+        background-color: rgb(241, 236, 236);
         padding-bottom: 15px;
     }
 }
@@ -62,8 +62,8 @@ h1 {
     
     .experienceTitle {
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
-        color: rgb(243, 235, 235);
+        background-color: rgba(29, 117, 175, 0.521);
+        color: rgb(255, 255, 255);
         font-size: 60px;
     }
     
@@ -74,7 +74,7 @@ h1 {
     }
     
     .websiteBackground {
-        background-color: lightgray;
+        background-color: rgb(241, 236, 236);
         padding-bottom: 15px;
     }
 }

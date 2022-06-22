@@ -3,29 +3,31 @@
         padding-bottom: 50px;
     }
 
-    .websiteBackground {
+    /* .websiteBackground {
         background-color: lightgray;
-    }
+    } */
 
     .aboutMeTitle {
-        padding-top: 75px;
-        background-color: rgb(82, 80, 80);
-        color: rgb(243, 235, 235);
+        /* padding-top: 75px; */
+        background-color: rgba(29, 117, 175, 0.521);
+        color: rgb(252, 250, 250);
         font-size: 150px;
     }
 
     .aboutMeContent {
-        padding-top: 95px;
+        padding-top: 150px;
+        padding-bottom: 200px;
+        /* background-color: red; */
     }
 
     p {
-        margin-top: 70px;
+        padding-top: 70px;
     }
 
     h1 {
         text-align: center;
-        padding-top: 120px;
-        padding-bottom: 100px;
+        /* padding-top: 120px; */
+        /* padding-bottom: 100px; */
     }
 }
 
@@ -40,7 +42,7 @@
     
     .aboutMeTitle {
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
+        background-color: rgba(29, 117, 175, 0.521);
         color: rgb(243, 235, 235);
         font-size: 80px;
         text-align: center;
@@ -66,7 +68,7 @@
     
     .aboutMeTitle {
         padding-top: 75px;
-        background-color: rgb(82, 80, 80);
+        background-color: rgba(29, 117, 175, 0.521);
         color: rgb(243, 235, 235);
         font-size: 60px;
     }
