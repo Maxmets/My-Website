@@ -23,7 +23,7 @@ return (
         </Card.Text>
         <div className="d-grid mt-auto gap-2 " >
             <Button href={props.link} className="buttonSpace" variant="info" size="lg">
-                Click Me
+                Learn More!
             </Button>
         </div>
     </Card.Body>

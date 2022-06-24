@@ -22,7 +22,7 @@ function Socials(){
                     </Card.Text>
                     <div className="d-grid gap-2">
                         <Button href='https://github.com/Maxmets' variant="info" size="lg">
-                            Click Me
+                            See My Projects!
                         </Button>
                     </div>
                 </Card.Body>
@@ -38,7 +38,7 @@ function Socials(){
                     </Card.Text>
                     <div className="d-grid gap-2">
                         <Button href='https://www.linkedin.com/in/maksymyakhymets/' variant="info" size="lg">
-                            Click Me
+                            Connect With Me! 
                         </Button>
                     </div>
                 </Card.Body>
@@ -54,7 +54,7 @@ function Socials(){
                     </Card.Text>
                     <div className="d-grid gap-2">
                         <Button href='mailto:maxmets27@gmail.com' variant="info" size="lg">
-                            Click Me
+                            Email Me!
                         </Button>
                     </div>
                 </Card.Body>

@@ -1,4 +1,5 @@
 import React from 'react';
+import myImage from "../IMG_3728.jpg"; 
 import './AboutMe.css'
 
 function AboutMe(){
@@ -6,7 +7,7 @@ function AboutMe(){
       <div id="aboutMeTile" className="aboutMe websiteBackground">
         <h1 className="aboutMeTitle">About Me</h1>
         <div class="aboutMeContent">
-          {/* <div className="circle"></div> */}
+          <img className='myImage' src={myImage} alt="Maksym Yakhymets"/>
           <p>Motivated and hardworking Bachelor of Science (B.Sc.) 
             graduate, in Computer Science; With 16 months of co-op work experience, 
             which included technical and comprehensive knowledge across all aspects 

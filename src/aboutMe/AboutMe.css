@@ -14,6 +14,15 @@
         font-size: 150px;
     }
 
+    .myImage {
+        width: 60%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .aboutMeContent {
         padding-top: 150px;
         padding-bottom: 200px;
@@ -47,6 +56,15 @@
         font-size: 80px;
         text-align: center;
     }
+
+    .myImage {
+        width: 60%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .aboutMeContent {
         padding-top: 25px;
@@ -73,6 +91,16 @@
         font-size: 60px;
     }
     
+
+    .myImage {
+        width: 90%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .aboutMeContent {
         padding-top: 25px;
     }
