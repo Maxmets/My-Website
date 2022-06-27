@@ -15,10 +15,10 @@ return (
     key={"light"}
     text={'dark'}
     className="mb-2 cardHover">
-    <Card.Body className='d-flex flex-column'>
+    <Card.Body className='d-flex  flex-column'>
         <Card.Title>{props.title}</Card.Title>
         <Card.Subtitle className=" subtitleSpace mb-2 text-muted">{techList}</Card.Subtitle>
-        <Card.Text className="textSpace">
+        <Card.Text className="mt-auto">
         {props.description}
         </Card.Text>
         <div className="d-grid mt-auto gap-2 " >

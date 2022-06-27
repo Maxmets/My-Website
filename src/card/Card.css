@@ -18,13 +18,12 @@
         margin:-3px; 
     }
 
-    .textSpace {
+    /* .textSpace {
         margin-top:40px; 
-    }
+    } */
 
     .buttonSpace { 
         margin-top: 30px;
-        
     }
 
     .link, .link:hover, .link:focus, .link:active {

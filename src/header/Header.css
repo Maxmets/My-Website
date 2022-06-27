@@ -87,6 +87,7 @@
 
   .navbarCollapse {
     background-color: rgba(0, 0, 0, 0.575);
+    text-align: center;
   }
 
 }
@@ -108,11 +109,8 @@
     }
     .navbarCollapse {
         background-color: rgba(0, 0, 0, 0.575);
+        text-align: center;
       }
-
-    /* .test {
-        margin-right: 0px;
-    } */
 }
 
 
