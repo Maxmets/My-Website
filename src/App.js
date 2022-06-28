@@ -10,8 +10,8 @@ import React from 'react';
 function App() {
 
   // TODO:
-  // 1. Upload Unions and Intervals Project to GitHub 
-  // 2. Add my Photo
+  // 1. Center better for certain mobile devices
+  
 
   return (
       <div>
