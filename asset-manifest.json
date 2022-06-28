@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/My-Website/static/css/main.c47cd0ac.css",
-    "main.js": "/My-Website/static/js/main.895d1c15.js",
+    "main.css": "/My-Website/static/css/main.1b7a2f5d.css",
+    "main.js": "/My-Website/static/js/main.9132c3e2.js",
     "static/js/787.21d17fcb.chunk.js": "/My-Website/static/js/787.21d17fcb.chunk.js",
     "static/media/IMG_3728.jpg": "/My-Website/static/media/IMG_3728.668d9496cc3518751002.jpg",
     "static/media/Maksym Yakhymets Resume.pdf": "/My-Website/static/media/Maksym Yakhymets Resume.bb4048298350d62987b9.pdf",
     "static/media/LI-Logo.png": "/My-Website/static/media/LI-Logo.a95afc06831647f5fca2.png",
     "static/media/GitHub_Logo.png": "/My-Website/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "index.html": "/My-Website/index.html",
-    "main.c47cd0ac.css.map": "/My-Website/static/css/main.c47cd0ac.css.map",
-    "main.895d1c15.js.map": "/My-Website/static/js/main.895d1c15.js.map",
+    "main.1b7a2f5d.css.map": "/My-Website/static/css/main.1b7a2f5d.css.map",
+    "main.9132c3e2.js.map": "/My-Website/static/js/main.9132c3e2.js.map",
     "787.21d17fcb.chunk.js.map": "/My-Website/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c47cd0ac.css",
-    "static/js/main.895d1c15.js"
+    "static/css/main.1b7a2f5d.css",
+    "static/js/main.9132c3e2.js"
   ]
 }
