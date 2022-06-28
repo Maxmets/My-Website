@@ -14,10 +14,11 @@ function Socials(){
        <Row xs={1} md={3} className="g-2">
             <Col>
                 <Card>
+                <Card.Header as="h5">My GitHub!</Card.Header>
                 <Card.Img className='imageWidth' variant="top" src={githubImage} alt='Github Logo'/>
                 <Card.Body>
-                    <Card.Title>My GitHub!</Card.Title>
-                    <Card.Text>
+                    {/* <Card.Title>My GitHub!</Card.Title> */}
+                    <Card.Text className='textAligner'>
                     Visit my GitHub to find out projects and technology that interest me!
                     </Card.Text>
                     <div className="d-grid gap-2">
@@ -30,10 +31,10 @@ function Socials(){
             </Col>
             <Col>
                 <Card>
+                <Card.Header as="h5">My LinkedIn!</Card.Header>
                 <Card.Img className='imageWidth' variant="top" src={linkedInImage} alt='LinkedIn Logo'/>
                 <Card.Body>
-                    <Card.Title>My LinkedIn!</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='textAligner'>
                     Visit my LinkedIn to learn more about me and my experiences! 
                     </Card.Text>
                     <div className="d-grid gap-2">
@@ -46,10 +47,10 @@ function Socials(){
             </Col>
             <Col>
                 <Card>
+                <Card.Header as="h5">My Email!</Card.Header>
                 <Card.Img className='imageWidth' variant="top" src={gmailImage} alt='Gmail Logo'/>
                 <Card.Body>
-                    <Card.Title>Email!</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='textAligner'> 
                     Direct get in touch with me through email! 
                     </Card.Text>
                     <div className="d-grid gap-2">
@@ -61,7 +62,6 @@ function Socials(){
                 </Card>
             </Col>
         </Row>
-       
         </div>
     );
 }
