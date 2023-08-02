@@ -19,14 +19,14 @@ function WorkCard(props) {
     text={'dark'}
     className="mb-2"
   >
-    <Card.Header>{props.company}</Card.Header>
+    <Card.Header className='headerPlace'>{props.company}</Card.Header>
     <Card.Body>
-      <Card.Title>{props.title} </Card.Title>
-      <Card.Text>
+      <Card.Title className='titlePlace'>{props.title} </Card.Title>
+      <Card.Text className='techPlace'>
           <b>Technology Used:</b>
               {techList}
       </Card.Text>
-      <Card.Text>
+      <Card.Text className='descriptionPlace'>
         {descList}
       </Card.Text>
       <Card.Text className='durationPlace'>

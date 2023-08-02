@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import resume from "../Maksym Yakhymets Resume.pdf";
+import resume from "../Maksym_Yakhymets_Resume.pdf";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 

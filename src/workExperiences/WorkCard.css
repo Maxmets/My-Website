@@ -25,9 +25,33 @@ h2,h4,p {
     height: "min-content";
 }
 
-/* .durationPlace {
-    pad;
-} */
+.headerPlace {
+ height: 60px;
+}
+
+.titlePlace {
+    padding-bottom: 10px;
+    font-size: 19.0px;
+}
+
+.durationPlace {
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.descriptionPlace {
+    padding-top: 20px;
+}
+
+.techPlace {
+    padding-top: 20px;
+}
+
+.Header {
+    color: black;
+}
 
 .techList {
     text-align: left;
@@ -39,6 +63,7 @@ h2,h4,p {
     text-align: left;
     display:list-item;
     margin-left: 3px;
+    padding-bottom: 10px;
 }
 
 }
@@ -56,6 +81,30 @@ h2,h4,p {
         border-color: black;
         margin-top: 5px;
     }
+
+    .headerPlace {
+        height: 60px;
+       }
+       
+       .titlePlace {
+           padding-bottom: 10px;
+           font-size: 19.0px;
+       }
+       
+       .durationPlace {
+           padding-top: 20px;
+           position: absolute;
+           bottom: 0;
+          
+       }
+       
+       .descriptionPlace {
+           padding-top: 20px;
+       }
+       
+       .techPlace {
+           padding-top: 20px;
+       }
 
     h2,h4,p {
         margin-left: 5px;
